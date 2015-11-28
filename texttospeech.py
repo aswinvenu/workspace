@@ -38,5 +38,9 @@ try:
         engine.say("command recived")
         time.sleep(1)
         os.system("poweroff")
+    elif('mail' in command):
+        engine.say("command recieved")
+        time.sleep(1)
+        os.system("iceweasel mail.google.com")
 except:
     pass
