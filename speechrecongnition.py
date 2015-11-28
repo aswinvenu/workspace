@@ -4,6 +4,7 @@ import speech_recognition as sr
 r = sr.Recognizer()
 with sr.Microphone() as source:
     print("Say something!")
+    //start listening 
     audio = r.listen(source)
 
 # recognize speech using Google Speech Recognition
